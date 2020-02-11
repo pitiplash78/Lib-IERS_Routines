@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40161223-5757-4F00-BD21-E1C9A510CF39}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IERS_Routines</RootNamespace>
+    <AssemblyName>Lib-IERS_Routines</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonFunctions.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="rg_zont2.cs" />
+    <Compile Include="ortho_eop.cs" />
+    <Compile Include="pmsdnut2.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Source-IERS_Conventions_2010\nut_test.f" />
+    <Content Include="Source-IERS_Conventions_2010\RG_ZONT2.c" />
+    <Content Include="Source-IERS_Conventions_2010\RG_ZONT2.F" />
+    <Content Include="Source-IERS_Conventions_2010\CNMTX.F" />
+    <Content Include="Source-IERS_Conventions_2010\ORTHO_EOP.F" />
+    <Content Include="Source-IERS_Conventions_2010\ortho_test.f" />
+    <Content Include="Source-IERS_Conventions_2010\FUNDARG.c" />
+    <Content Include="Source-IERS_Conventions_2010\FUNDARG.F" />
+    <Content Include="Source-IERS_Conventions_2010\PMSDNUT2.c" />
+    <Content Include="Source-IERS_Conventions_2010\PMSDNUT2.F" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lib-Units\Lib-Units.csproj">
+      <Project>{CFB653D3-14D8-4EF6-96AE-C2BF009E76BD}</Project>
+      <Name>Lib-Units</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
