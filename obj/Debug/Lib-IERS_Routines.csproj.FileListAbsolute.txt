@@ -1,0 +1,7 @@
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-IERS_Routines\bin\Debug\Lib-IERS_Routines.dll
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-IERS_Routines\bin\Debug\Lib-IERS_Routines.pdb
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-IERS_Routines\bin\Debug\Lib-Units.dll
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-IERS_Routines\bin\Debug\Lib-Units.pdb
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-IERS_Routines\obj\Debug\Lib-IERS_Routines.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-IERS_Routines\obj\Debug\Lib-IERS_Routines.dll
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-IERS_Routines\obj\Debug\Lib-IERS_Routines.pdb

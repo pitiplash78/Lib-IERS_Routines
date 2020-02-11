@@ -1,0 +1,7 @@
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-NutationModel\bin\Debug\Lib-NutationModel.dll
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-NutationModel\bin\Debug\Lib-NutationModel.pdb
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-NutationModel\obj\Debug\Lib-NutationModel.dll
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-NutationModel\obj\Debug\Lib-NutationModel.pdb
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-NutationModel\bin\Debug\Lib-Units.dll
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-NutationModel\bin\Debug\Lib-Units.pdb
+\\vmware-host\Shared Folders\home-andre\VisualStudio_svn\Libraries\Lib-NutationModel\obj\Debug\Lib-NutationModel.csprojResolveAssemblyReference.cache
